@@ -1,4 +1,3 @@
-import { Category } from "@mui/icons-material";
 import prismaClient from "../../prisma";
 
 class ListCategoryService {
