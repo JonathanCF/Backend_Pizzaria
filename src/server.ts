@@ -29,5 +29,5 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 });
 
 app.listen(process.env.PGPORT, () => {
-  console.log("Servidor rodando na port 3333");
+  console.log("Servidor rodando na port " + process.env.PGPORT);
 });
